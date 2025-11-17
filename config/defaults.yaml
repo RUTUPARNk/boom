@@ -1,0 +1,17 @@
+time_window_hours: 48
+broad_phase_dt_seconds: 600
+narrow_phase_dt_s: 10
+j2_enabled: true
+drag_enabled: true
+pc_threshold: 1e-4
+miss_distance_alert_m: 1000
+mc_samples: 20000
+num_workers: 8
+
+# Physical constants
+mu: 3.986004418e14
+earth_radius: 6378137.0
+j2_constant: 1.08262668e-3
+drag_coefficient: 2.2
+atmosphere_rho0: 1.225
+atmosphere_scale: 72000.0
